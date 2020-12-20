@@ -1,0 +1,2 @@
+C:\Users\arnadeem\Google Drive\University Stuff\FAST\OOP\Tetris\Tetris\Debug\Tetris.exe
+C:\Users\arnadeem\Google Drive\University Stuff\FAST\OOP\Tetris\Tetris\Debug\Tetris.pdb
