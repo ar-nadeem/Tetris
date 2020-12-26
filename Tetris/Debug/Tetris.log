@@ -1,2 +1,7 @@
-﻿  Tetris.cpp
+﻿  Driver.cpp
+C:\Users\arnadeem\Google Drive\University Stuff\FAST\OOP\Tetris\Tetris\Driver.cpp(30,24): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\arnadeem\Google Drive\University Stuff\FAST\OOP\Tetris\Tetris\Driver.cpp(33,24): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\arnadeem\Google Drive\University Stuff\FAST\OOP\Tetris\Tetris\Driver.cpp(40,29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\arnadeem\Google Drive\University Stuff\FAST\OOP\Tetris\Tetris\Driver.cpp(41,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\arnadeem\Google Drive\University Stuff\FAST\OOP\Tetris\Tetris\Driver.cpp(66,29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
   Tetris.vcxproj -> C:\Users\arnadeem\Google Drive\University Stuff\FAST\OOP\Tetris\Tetris\Debug\Tetris.exe
