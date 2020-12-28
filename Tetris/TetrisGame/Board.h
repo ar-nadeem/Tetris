@@ -18,7 +18,7 @@ public:
 
 	int getSerial(int x, int y) {
 		return board[x - INDENTATION][y - INDENTATION].getSerial();
-	}
+	} 
 
 	int getSign(int r, int c) {
 		return board[r][c].getSign();
