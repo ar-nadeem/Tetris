@@ -21,9 +21,6 @@
     <ClInclude Include="BoardCell.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Gotoxy.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Point.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -51,9 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Board.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Gotoxy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="TetrisGame.cpp">

@@ -3,10 +3,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string>
-#include "gotoxy.h"
 
+#include <iostream>
+#include <windows.h>
+#include <process.h>
+
+using namespace std;
+
+// 5 space indentation
 enum Display{ INDENTATION = 5 };
 
+// Colours for console window
 enum Color {
 	BLACK = 0,
 	BLUE = 1,
@@ -26,7 +33,8 @@ enum Color {
 	WHITE = 15
 };
 
-//cpp Functions:
+//Functions:
+void gotoxy(int, int); // Taken From Display.h given
 void setTextColor(Color color);
 void hideCursor();
 void printMessage(string str, bool needToStay=false);

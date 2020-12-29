@@ -150,7 +150,6 @@
     <ClInclude Include="BoardCell.h" />
     <ClInclude Include="Display.h" />
     <ClInclude Include="Keys.h" />
-    <ClInclude Include="Gotoxy.h" />
     <ClInclude Include="Point.h" />
     <ClInclude Include="Shape.h" />
     <ClInclude Include="ShapeFactory.h" />
@@ -162,7 +161,6 @@
     <ClCompile Include="Board.cpp" />
     <ClCompile Include="Bomb.cpp" />
     <ClCompile Include="Display.cpp" />
-    <ClCompile Include="Gotoxy.cpp" />
     <ClCompile Include="Jocker.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Point.cpp" />

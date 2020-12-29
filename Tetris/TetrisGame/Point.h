@@ -1,7 +1,7 @@
 #pragma once
 
 #include <conio.h>
-#include "Gotoxy.h"
+#include "Display.h"
 #include "ShapesSigns.h"
 
 class Point {
@@ -9,14 +9,24 @@ class Point {
 	Signs ch;
 
 public:
-	//Constructor:
-	Point(int x = 1, int y = 1, Signs ch = EMPTY) : x(x), y(y), ch(ch) {}
+	//Constructor: // https://www.geeksforgeeks.org/when-do-we-use-initializer-list-in-c/
+	Point(int x = 1, int y = 1, Signs ch = EMPTY) : x(x), y(y), ch(ch) {} // Easy intilization using C++ Constructor Initializer List
 
 	//inline Functions:
-	int getX() { return x; }
-	int getY() { return y; }
-	Signs getChar() { return ch; }
-	void setChar(Signs _ch) { ch = _ch; }
+	int getX() {
+		return x; 
+	}
+	int getY() {
+		return y; 
+	}
+	
+	Signs getChar() {
+		return ch; 
+	}
+	
+	void setChar(Signs _ch) {
+		ch = _ch; 
+	}
 	void updatePoint(int dirX, int dirY) {
 		x += dirX;
 		y += dirY;
